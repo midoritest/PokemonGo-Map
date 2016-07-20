@@ -1,1 +1,1 @@
-web: python runserver.py -a PTC -u $USERNAME -p $PASSWORD -l $LOCATION -st $STEPS -i $IGNORE -dp -dl -dg -H 0.0.0.0 -P $PORT -k $GMAPS_KEY
+web: python runserver.py -a PTC -u $USERNAME -p $PASSWORD -l "$LOCATION" -st $STEPS -i $IGNORE -dp -dl -dg -H 0.0.0.0 -P $PORT -k $GMAPS_KEY
